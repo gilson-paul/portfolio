@@ -11,7 +11,7 @@ export const portfolioData=[{
     url:"#"
 
 },{
-    logoSrc:"nyj.jpg",
+    logoSrc:"nyj.png",
     heading:"E-commerce Growth at Ace Watches Inc.",
     text:"Tasked with building the e-commerce channel from scratch with full P&L ownership.  I drove +24% YoY revenue growth while improving the channel's profit margin by +12%.  I also lifted site-wide conversion by +19% and grew CRM-attributed revenue by +22% through data-driven strategies.",
     url:"#"
