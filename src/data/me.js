@@ -1,9 +1,11 @@
 export const my={
-    name:"Apoorva Karn",
-    brandName:"Apoorv Karn",
-    email:"apoorvkarn2002@gmail.com",
-    phoneNo:"+91 89018 65173",
-    whatsappNo:"+918901865173",
-    address:"New Delhi, India",
-    location:"https://maps.app.goo.gl/LJJHQATQF7F1MaAu5",
+    name:"Gilson Paul George",
+    brandName:"Gilson Paul George",
+    email:"georgegilsonpaul@gmail.com",
+    phoneNo:"+44 7437 922 524",
+    whatsappNo:"+44 7437 922 524",
+    address:"Greater London, UK",
+    location:"https://maps.app.goo.gl/LkNL5NCP1rDq2vb36",
+    linkedin: "https://in.linkedin.com/in/gilson-paul-george",
+    linkedinHandle: "in/gilson-paul-george"
 }

@@ -22,7 +22,6 @@ const Contact = () => {
       event.target.reset();
     } else {
       console.log("Error", data);
-      setResult(data.message);
       alert(data.message);
     }
     setTimeout(() => setIsSubmitting(false), 100);
@@ -39,21 +38,22 @@ const Contact = () => {
       >
         Get in touch
       </motion.h2>
+      {/* MODIFIED: Adjusted classes for better centering of content below */}
       <motion.div
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6, ease: "easeOut" }}
         viewport={{ once: true, amount: 0.3 }}
-        className="flex max-w-350 px-10 overflow-hidden flex-col text-center md:text-left md:flex-row mx-auto "
+        className="flex max-w-4xl px-10 overflow-hidden flex-col items-center text-center mx-auto"
       >
-        <div className="w-full mx-auto md:mx-0">
+        <div className="w-full">
           <h4 className="text-2xl font-semibold md:mt-10 mb-5">Let's talk</h4>
           <p className="px-10 sm:px-0">
             I'm currently avaliable to take on new projects, so feel free to
             send me a message about anything that you want me to work on. You
             can contact anytime.
           </p>
-          <div className=" w-fit mx-auto md:mx-0 mt-5 mb-5">
+          <div className="w-fit mx-auto mt-5 mb-5 space-y-2">
             <div className="flex items-center">
               <svg
                 className="mr-2"
@@ -86,6 +86,7 @@ const Contact = () => {
               <a
                 href={`https://wa.me/${my.whatsappNo}?text=Hello,%20I'd%20like%20to%20know%20more%20about%20your%20services`}
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 {my.phoneNo}
               </a>
@@ -106,13 +107,30 @@ const Contact = () => {
               </svg>
               <a href={my.location}>{my.address}</a>
             </div>
+            
+            {/* ADDED: LinkedIn link section */}
+            <div className="flex items-center">
+              <svg
+                className="mr-2"
+                xmlns="http://www.w3.org/2000/svg"
+                width={32}
+                height={32}
+                viewBox="0 0 24 24"
+              >
+                <path 
+                  fill="currentColor" 
+                  d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2zm-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-3.18V18.5h3.18v-5.91c0-.62.4-1.16 1.16-1.16s1.16.54 1.16 1.16V18.5zM6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68M8.25 18.5v-9.69H5.5V18.5z"
+                />
+              </svg>
+              <a href={my.linkedin} target="_blank" rel="noopener noreferrer">{my.linkedinHandle}</a>
+            </div>
           </div>
         </div>
         <form
-          className="w-[90%] rounded-2xl py-5 sm:w-full max-w-2xl mx-auto px-4 md:p-10 flex flex-col gap-5 mb-10 border sm:border-0"
+          className="w-full rounded-2xl py-5 sm:w-full max-w-2xl px-4 flex flex-col gap-5 my-10 border sm:border-0"
           onSubmit={onSubmit}
         >
-          <div className="flex flex-col ">
+          <div className="flex flex-col text-left">
             <label
               htmlFor="name"
               className="mb-1 text-sm font-medium text-gray-700 dark:text-gray-100"
@@ -128,7 +146,7 @@ const Contact = () => {
             />
           </div>
 
-          <div className="flex flex-col">
+          <div className="flex flex-col text-left">
             <label
               htmlFor="email"
               className="mb-1 text-sm font-medium text-gray-700 dark:text-gray-100"
@@ -144,7 +162,7 @@ const Contact = () => {
             />
           </div>
 
-          <div className="flex flex-col">
+          <div className="flex flex-col text-left">
             <label
               htmlFor="message"
               className="mb-1 text-sm font-medium text-gray-700 dark:text-gray-100"

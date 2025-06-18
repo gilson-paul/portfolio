@@ -45,7 +45,7 @@ const Hero = ({ isScrolled }) => {
       >
         Hi, I'm <span className="text-outline">{my.name}</span>
         <br />
-        <span className="text-gray-700 dark:text-gray-300">Full Stack Developer</span>
+        <span className="text-gray-700 dark:text-gray-300">Business Consultant</span>
       </motion.h1>
 
       {/* Subtext for larger screens */}
@@ -55,9 +55,7 @@ const Hero = ({ isScrolled }) => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, delay: 0.3 }}
       >
-        I'm a full-stack developer who builds scalable, user-centric applications from
-        frontend interfaces to backend systems. I work across the stack—crafting dynamic UIs,
-        designing APIs, and managing databases—to create seamless digital experiences.
+        A results-oriented Business Consultant leading business transformation, operational restructuring, and e-commerce growth.
       </motion.p>
 
       {/* Subtext for small screens */}
@@ -67,7 +65,7 @@ const Hero = ({ isScrolled }) => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, delay: 0.3 }}
       >
-        I'm a full-stack developer building user-friendly apps with modern tools, front to back.
+        A results-oriented Business Consultant leading business transformation, operational restructuring, and e-commerce growth.
       </motion.p>
 
       {/* CTA Buttons */}

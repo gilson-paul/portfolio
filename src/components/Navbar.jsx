@@ -31,9 +31,6 @@ const Navbar = ({ toggleSidebar, showNavbarShadow, themeToggle }) => {
               <a href="#portfolio">Portfolio</a>
             </li>
             <li className="hover:scale-105 transition-all duration-300">
-              <a href="#contact">Contact</a>
-            </li>
-            <li className="hover:scale-105 transition-all duration-300">
               <a onClick={themeToggle}>
                 <ThemeToggleIcon />
               </a>

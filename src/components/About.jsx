@@ -24,28 +24,14 @@ const About = () => {
       >
         <div className="bg-white shadow-md dark:bg-zinc-800  rounded-2xl p-8 md:p-10 text-center md:text-left">
           <p className="text-lg md:text-xl leading-relaxed text-zinc-800 dark:text-white">
-            👋 Hi! I'm a passionate{" "}
-            <span className="font-semibold">full-stack developer</span>{" "}
-            specializing in the <span className="font-medium">MERN stack</span>{" "}
-            — MongoDB, Express, React, and Node.js. I build performant REST
-            APIs, integrate 3rd-party services, and deploy cloud-ready
-            applications on platforms like{" "}
-            <span className="font-medium">Vercel</span> and{" "}
-            <span className="font-medium">AWS</span>.
+            👋 Hi! I'm a strategic and results-oriented{" "}
+            <span className="font-semibold">Business Consultant</span>{" "}
+            with over <span className="font-medium">5 years of experience</span>{" "}
+            enhancing profitability for B2B and DTC clients. I have a proven track record of redesigning operating models, driving multi-channel revenue growth, and implementing data-driven strategies.
           </p>
 
           <p className="mt-6 text-lg md:text-xl leading-relaxed text-zinc-800 dark:text-white">
-            On the <span className="font-semibold">frontend</span>, I craft
-            responsive, accessible UIs using React and Tailwind CSS. On the{" "}
-            <span className="font-semibold">backend</span>, I handle everything
-            from authentication and server-side logic to database design and
-            performance tuning.
-          </p>
-
-          <p className="mt-6 text-lg md:text-xl leading-relaxed text-zinc-800 dark:text-white">
-            I love solving real-world problems with clean code, scalable
-            architecture, and an eye for detail. Let’s build something
-            impactful!
+            My expertise lies in spearheading full-scale business transformations to reverse operational inefficiencies and establish scalable frameworks for market expansion.  I architect and execute multi-channel digital strategies, overhaul end-to-end supply chains, and build cost-efficient operational hubs from scratch.  I am passionate about solving complex business challenges with a focus on P&L management, process re-engineering, and strategic growth.  Let's build something impactful!
           </p>
         </div>
       </motion.div>
