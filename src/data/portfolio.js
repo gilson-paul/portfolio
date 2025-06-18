@@ -16,12 +16,6 @@ export const portfolioData=[{
     text:"Tasked with building the e-commerce channel from scratch with full P&L ownership.  I drove +24% YoY revenue growth while improving the channel's profit margin by +12%.  I also lifted site-wide conversion by +19% and grew CRM-attributed revenue by +22% through data-driven strategies.",
     url:"#"
 
-},{
-    logoSrc:"dummy1.jpg",
-    heading:"Multi-Client Consulting at Wishup Technology",
-    text:"Provided high-level administrative, marketing, and data analysis support to multiple international clients.  I engineered dynamic dashboards to transform raw data into actionable insights and managed digital marketing campaigns that drove a 15% increase in customer engagement.",
-    url:"#"
-
 }
 
 ]
