@@ -48,7 +48,8 @@ export const skills = [
         "Magento",
         "Finale Inventory",
         "Brandboom",
-        "Shopify"
+        "Shopify",
+        "Content Square"
       ],
     }
   ];
