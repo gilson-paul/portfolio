@@ -1,9 +1,11 @@
 export const logos = [
-    'express.jpg',
-    'mongodb.jpg',
-    'nextjs.jpg',
-    'nodejs.jpg',
-    'reactjs.jpg',
-    'tailwind.jpg',
-    'redis.jpg'
+    'shopify.png',
+    'monday.png',
+    'microsoft-office.png',
+    'google-workspace.png',
+    'channeladvisor.png',
+    'brandboom.png',
+    'asana.png',
+    'adobe_commerce.png',
+    'finale_inventory.jpg'
   ];

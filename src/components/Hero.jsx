@@ -65,7 +65,7 @@ const Hero = ({ isScrolled }) => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, delay: 0.3 }}
       >
-        A results-oriented Business Consultant leading business transformation, operational restructuring, and e-commerce growth.
+        A strategic business consultant with over 5 YoE transforming operations and driving multi-channel e-commerce growth, delivering scalable and profitable results for B2B and DTC clients.
       </motion.p>
 
       {/* CTA Buttons */}
