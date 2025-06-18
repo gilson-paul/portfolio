@@ -1,5 +1,5 @@
 export const portfolioData=[{
-    logoSrc:"dummy1.jpg",
+    logoSrc:"ace.jpg",
     heading:"Business Transformation at Ace Watches Inc",
     text:"Recruited by the CEO to lead a full-scale business transformation.  I transitioned the company to a remote-first model, cutting annual overheads by $150,000, and executed a digital strategy that expanded the client base by 40% in one year.  I also overhauled the supply chain, significantly improving inventory accuracy and in-stock availability.",
     url:"#",
