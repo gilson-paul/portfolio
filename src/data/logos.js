@@ -3,7 +3,7 @@ export const logos = [
     'monday.png',
     'microsoft-office.png',
     'googleworkspace.png',
-    'channeladvisor.png',
+    'channel-advisor.png',
     'brandboom.png',
     'google-analytics.png',
     'asana.png',
