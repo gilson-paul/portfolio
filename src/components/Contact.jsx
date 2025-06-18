@@ -44,7 +44,7 @@ const Contact = () => {
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6, ease: "easeOut" }}
         viewport={{ once: true, amount: 0.3 }}
-        className="flex container flex-col text-center md:text-left md:flex-row mx-auto "
+        className="flex max-w-350 px-10 overflow-hidden flex-col text-center md:text-left md:flex-row mx-auto "
       >
         <div className="w-full mx-auto md:mx-0">
           <h4 className="text-2xl font-semibold md:mt-10 mb-5">Let's talk</h4>
