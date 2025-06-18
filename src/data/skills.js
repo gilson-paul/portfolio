@@ -45,7 +45,7 @@ export const skills = [
         "Google Analytics",
         "Channel Advisor",
         "Helium10",
-        "Magneto",
+        "Magento",
         "Finale Inventory",
         "Brandboom",
         "Shopify"
