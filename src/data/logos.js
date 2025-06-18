@@ -5,6 +5,7 @@ export const logos = [
     'google-workspace.png',
     'channeladvisor.png',
     'brandboom.png',
+    'google-analytics.png',
     'asana.png',
     'adobe_commerce.png',
     'finale_inventory.jpg'
